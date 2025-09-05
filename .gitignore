@@ -1,0 +1,51 @@
+# .gitignore for .NET MAUI Blazor project
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Mac build files
+*.DS_Store
+
+# Windows build files
+*.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# Maui generated files
+**/Platforms/Android/obj/
+**/Platforms/Android/bin/
+**/Platforms/iOS/obj/
+**/Platforms/iOS/bin/
+**/Platforms/MacCatalyst/obj/
+**/Platforms/MacCatalyst/bin/
+**/Platforms/Windows/obj/
+**/Platforms/Windows/bin/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Others
+wwwroot/dist/
+wwwroot/node_modules/
+
+# User secrets
+secrets.json
